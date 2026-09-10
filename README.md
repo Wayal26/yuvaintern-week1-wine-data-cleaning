@@ -1,14 +1,15 @@
-# YuvaIntern Week 3 – Unsupervised Learning and Clustering Analysis
+# YuvaIntern Week 4 – Supervised Learning Model Implementation
 
-K-Means clustering on the Wine Recognition dataset.
+Wine Recognition multiclass classification using Python and scikit-learn.
 
 Contents:
-- YuvaIntern_Week3_Clustering_Report.docx
-- week3_wine_clustering.ipynb
-- src/week3_clustering.py
-- data/wine_clustered.csv
-- data/clustering_metrics.csv
+- YuvaIntern_Week4_Supervised_Learning_Report.docx
+- week4_wine_supervised.ipynb
+- src/week4_supervised_learning.py
+- data/wine_supervised_dataset.csv
+- data/model_metrics.csv
 - figures/
 - submission_description.txt
 
-Methods: Standardization, K-Means, elbow method, silhouette score, PCA visualization, cluster profiles, and post-hoc comparison with known classes.
+Models: Logistic Regression and Random Forest.
+Evaluation: accuracy, weighted precision/recall/F1, 5-fold stratified cross-validation, confusion matrices, and feature importance.
