@@ -1,24 +1,14 @@
-# YuvaIntern Week 2 – Exploratory Data Analysis and Visualization
+# YuvaIntern Week 3 – Unsupervised Learning and Clustering Analysis
 
-This project contains the Week 2 EDA of the Wine Recognition dataset.
+K-Means clustering on the Wine Recognition dataset.
 
-## Contents
-- `YuvaIntern_Week2_EDA_Report.docx` – final report
-- `week2_wine_eda.ipynb` – Jupyter notebook
-- `src/week2_eda.py` – Python source code
-- `data/wine_eda_dataset.csv` – dataset used for analysis
-- `figures/` – EDA visualizations
-- `submission_description.txt` – 200+ word submission description
+Contents:
+- YuvaIntern_Week3_Clustering_Report.docx
+- week3_wine_clustering.ipynb
+- src/week3_clustering.py
+- data/wine_clustered.csv
+- data/clustering_metrics.csv
+- figures/
+- submission_description.txt
 
-## Tools
-Python, Pandas, Matplotlib, scikit-learn.
-
-## Main analysis
-- Dataset overview and quality checks
-- Descriptive statistics
-- Class distribution
-- Feature distributions
-- Class-wise comparisons
-- Correlation analysis
-- Scatter plot interpretation
-- Findings and implications for future modeling
+Methods: Standardization, K-Means, elbow method, silhouette score, PCA visualization, cluster profiles, and post-hoc comparison with known classes.
